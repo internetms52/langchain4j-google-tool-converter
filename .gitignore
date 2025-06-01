@@ -1,0 +1,5 @@
+/maven-plugin/.idea/
+/maven-plugin/target/
+/.idea
+/maven-lib/target
+/maven-lib/.idea
