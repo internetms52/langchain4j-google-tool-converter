@@ -10,9 +10,7 @@
     <name>langchain4j-google-tool-converter</name>
     <packaging>jar</packaging>
     <url>https://github.com/internetms52/langchain4j-google-tool-converter</url>
-    <description>This is a library that implements an Object Pool, and it supports nested object creation as well as
-        constructor specification.
-    </description>
+    <description>Convert LangChain4j tool specifications to Google GenAI tool format.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -55,7 +53,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <goalPrefix>object-pool</goalPrefix> <!-- 指定你的插件目標的前綴 -->
+                    <goalPrefix>langchain4j-google-tool-converter</goalPrefix> <!-- 指定你的插件目標的前綴 -->
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
             </plugin>
@@ -134,7 +132,8 @@
     </distributionManagement>
     <scm>
         <connection>scm:git@github.com:internetms52/langchain4j-google-tool-converter.git</connection>
-        <developerConnection>scm:git:git@github.com:internetms52/langchain4j-google-tool-converter.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:internetms52/langchain4j-google-tool-converter.git
+        </developerConnection>
         <url>https://github.com/internetms52/langchain4j-google-tool-converter</url>
     </scm>
     <licenses>
