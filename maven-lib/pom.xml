@@ -6,7 +6,7 @@
 
     <groupId>io.github.internetms52</groupId>
     <artifactId>langchain4j-google-tool-converter</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>langchain4j-google-tool-converter</name>
     <packaging>jar</packaging>
     <url>https://github.com/internetms52/langchain4j-google-tool-converter</url>
